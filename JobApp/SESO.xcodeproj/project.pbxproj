@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B8EF8E9197EA0B1005AA3BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8EF8E8197EA0B1005AA3BC /* Foundation.framework */; };
+		2B8EF8EB197EA0B1005AA3BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8EF8EA197EA0B1005AA3BC /* CoreGraphics.framework */; };
+		2B8EF8ED197EA0B1005AA3BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8EF8EC197EA0B1005AA3BC /* UIKit.framework */; };
+		2B8EF8F3197EA0B1005AA3BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B8EF8F1197EA0B1005AA3BC /* InfoPlist.strings */; };
+		2B8EF8F5197EA0B1005AA3BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EF8F4197EA0B1005AA3BC /* main.m */; };
+		2B8EF8F9197EA0B1005AA3BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EF8F8197EA0B1005AA3BC /* AppDelegate.m */; };
+		2B8EF8FB197EA0B1005AA3BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8EF8FA197EA0B1005AA3BC /* Images.xcassets */; };
+		2B8EF902197EA0B1005AA3BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8EF901197EA0B1005AA3BC /* XCTest.framework */; };
+		2B8EF903197EA0B1005AA3BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8EF8E8197EA0B1005AA3BC /* Foundation.framework */; };
+		2B8EF904197EA0B1005AA3BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8EF8EC197EA0B1005AA3BC /* UIKit.framework */; };
+		2B8EF90C197EA0B1005AA3BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B8EF90A197EA0B1005AA3BC /* InfoPlist.strings */; };
+		2B8EF90E197EA0B1005AA3BC /* JobAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EF90D197EA0B1005AA3BC /* JobAppTests.m */; };
+		2B8EF91E197EA13B005AA3BC /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8EF91D197EA13B005AA3BC /* Storyboard.storyboard */; };
+		2B8EF922197EA206005AA3BC /* buttonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8EF920197EA206005AA3BC /* buttonNormal.png */; };
+		2B8EF923197EA206005AA3BC /* buttonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8EF921197EA206005AA3BC /* buttonPressed.png */; };
+		2B8EF925197EA36F005AA3BC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8EF924197EA36F005AA3BC /* logo.png */; };
+		2B8EF928197EA57E005AA3BC /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EF927197EA57E005AA3BC /* WebsiteViewController.m */; };
+		2B8EF92B197EA59B005AA3BC /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EF92A197EA59B005AA3BC /* FacebookViewController.m */; };
+		2B8EF92E197EA686005AA3BC /* webCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EF92D197EA686005AA3BC /* webCreator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B8EF905197EA0B1005AA3BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B8EF8DD197EA0B1005AA3BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8EF8E4197EA0B1005AA3BC;
+			remoteInfo = JobApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B8EF8E5197EA0B1005AA3BC /* SESO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SESO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8EF8E8197EA0B1005AA3BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B8EF8EA197EA0B1005AA3BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B8EF8EC197EA0B1005AA3BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B8EF8F0197EA0B1005AA3BC /* SESO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SESO-Info.plist"; sourceTree = "<group>"; };
+		2B8EF8F2197EA0B1005AA3BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B8EF8F4197EA0B1005AA3BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B8EF8F6197EA0B1005AA3BC /* SESO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SESO-Prefix.pch"; sourceTree = "<group>"; };
+		2B8EF8F7197EA0B1005AA3BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B8EF8F8197EA0B1005AA3BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B8EF8FA197EA0B1005AA3BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B8EF900197EA0B1005AA3BC /* SESOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SESOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8EF901197EA0B1005AA3BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2B8EF909197EA0B1005AA3BC /* SESOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SESOTests-Info.plist"; sourceTree = "<group>"; };
+		2B8EF90B197EA0B1005AA3BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B8EF90D197EA0B1005AA3BC /* JobAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobAppTests.m; sourceTree = "<group>"; };
+		2B8EF91D197EA13B005AA3BC /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		2B8EF920197EA206005AA3BC /* buttonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonNormal.png; sourceTree = "<group>"; };
+		2B8EF921197EA206005AA3BC /* buttonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonPressed.png; sourceTree = "<group>"; };
+		2B8EF924197EA36F005AA3BC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		2B8EF926197EA57E005AA3BC /* WebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteViewController.h; sourceTree = "<group>"; };
+		2B8EF927197EA57E005AA3BC /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteViewController.m; sourceTree = "<group>"; };
+		2B8EF929197EA59B005AA3BC /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
+		2B8EF92A197EA59B005AA3BC /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
+		2B8EF92C197EA686005AA3BC /* webCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webCreator.h; sourceTree = "<group>"; };
+		2B8EF92D197EA686005AA3BC /* webCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webCreator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8EF8E2197EA0B1005AA3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8EF8EB197EA0B1005AA3BC /* CoreGraphics.framework in Frameworks */,
+				2B8EF8ED197EA0B1005AA3BC /* UIKit.framework in Frameworks */,
+				2B8EF8E9197EA0B1005AA3BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8EF8FD197EA0B1005AA3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8EF902197EA0B1005AA3BC /* XCTest.framework in Frameworks */,
+				2B8EF904197EA0B1005AA3BC /* UIKit.framework in Frameworks */,
+				2B8EF903197EA0B1005AA3BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8EF8DC197EA0B1005AA3BC = {
+			isa = PBXGroup;
+			children = (
+				2B8EF8EE197EA0B1005AA3BC /* JobApp */,
+				2B8EF907197EA0B1005AA3BC /* JobAppTests */,
+				2B8EF8E7197EA0B1005AA3BC /* Frameworks */,
+				2B8EF8E6197EA0B1005AA3BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B8EF8E6197EA0B1005AA3BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B8EF8E5197EA0B1005AA3BC /* SESO.app */,
+				2B8EF900197EA0B1005AA3BC /* SESOTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B8EF8E7197EA0B1005AA3BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B8EF8E8197EA0B1005AA3BC /* Foundation.framework */,
+				2B8EF8EA197EA0B1005AA3BC /* CoreGraphics.framework */,
+				2B8EF8EC197EA0B1005AA3BC /* UIKit.framework */,
+				2B8EF901197EA0B1005AA3BC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B8EF8EE197EA0B1005AA3BC /* JobApp */ = {
+			isa = PBXGroup;
+			children = (
+				2B8EF91F197EA1FD005AA3BC /* Images */,
+				2B8EF917197EA0DD005AA3BC /* MainView */,
+				2B8EF8F7197EA0B1005AA3BC /* AppDelegate.h */,
+				2B8EF8F8197EA0B1005AA3BC /* AppDelegate.m */,
+				2B8EF8FA197EA0B1005AA3BC /* Images.xcassets */,
+				2B8EF8EF197EA0B1005AA3BC /* Supporting Files */,
+			);
+			path = JobApp;
+			sourceTree = "<group>";
+		};
+		2B8EF8EF197EA0B1005AA3BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B8EF8F0197EA0B1005AA3BC /* SESO-Info.plist */,
+				2B8EF8F1197EA0B1005AA3BC /* InfoPlist.strings */,
+				2B8EF8F4197EA0B1005AA3BC /* main.m */,
+				2B8EF8F6197EA0B1005AA3BC /* SESO-Prefix.pch */,
+				2B8EF91D197EA13B005AA3BC /* Storyboard.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B8EF907197EA0B1005AA3BC /* JobAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B8EF90D197EA0B1005AA3BC /* JobAppTests.m */,
+				2B8EF908197EA0B1005AA3BC /* Supporting Files */,
+			);
+			path = JobAppTests;
+			sourceTree = "<group>";
+		};
+		2B8EF908197EA0B1005AA3BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B8EF909197EA0B1005AA3BC /* SESOTests-Info.plist */,
+				2B8EF90A197EA0B1005AA3BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B8EF917197EA0DD005AA3BC /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				2B8EF919197EA0EE005AA3BC /* Controller */,
+				2B8EF918197EA0E3005AA3BC /* Model */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		2B8EF918197EA0E3005AA3BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B8EF92C197EA686005AA3BC /* webCreator.h */,
+				2B8EF92D197EA686005AA3BC /* webCreator.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2B8EF919197EA0EE005AA3BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B8EF926197EA57E005AA3BC /* WebsiteViewController.h */,
+				2B8EF927197EA57E005AA3BC /* WebsiteViewController.m */,
+				2B8EF929197EA59B005AA3BC /* FacebookViewController.h */,
+				2B8EF92A197EA59B005AA3BC /* FacebookViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2B8EF91F197EA1FD005AA3BC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2B8EF924197EA36F005AA3BC /* logo.png */,
+				2B8EF920197EA206005AA3BC /* buttonNormal.png */,
+				2B8EF921197EA206005AA3BC /* buttonPressed.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B8EF8E4197EA0B1005AA3BC /* SESO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8EF911197EA0B1005AA3BC /* Build configuration list for PBXNativeTarget "SESO" */;
+			buildPhases = (
+				2B8EF8E1197EA0B1005AA3BC /* Sources */,
+				2B8EF8E2197EA0B1005AA3BC /* Frameworks */,
+				2B8EF8E3197EA0B1005AA3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SESO;
+			productName = JobApp;
+			productReference = 2B8EF8E5197EA0B1005AA3BC /* SESO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B8EF8FF197EA0B1005AA3BC /* SESOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8EF914197EA0B1005AA3BC /* Build configuration list for PBXNativeTarget "SESOTests" */;
+			buildPhases = (
+				2B8EF8FC197EA0B1005AA3BC /* Sources */,
+				2B8EF8FD197EA0B1005AA3BC /* Frameworks */,
+				2B8EF8FE197EA0B1005AA3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B8EF906197EA0B1005AA3BC /* PBXTargetDependency */,
+			);
+			name = SESOTests;
+			productName = JobAppTests;
+			productReference = 2B8EF900197EA0B1005AA3BC /* SESOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B8EF8DD197EA0B1005AA3BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ustwo.com.ty;
+				TargetAttributes = {
+					2B8EF8FF197EA0B1005AA3BC = {
+						TestTargetID = 2B8EF8E4197EA0B1005AA3BC;
+					};
+				};
+			};
+			buildConfigurationList = 2B8EF8E0197EA0B1005AA3BC /* Build configuration list for PBXProject "SESO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B8EF8DC197EA0B1005AA3BC;
+			productRefGroup = 2B8EF8E6197EA0B1005AA3BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B8EF8E4197EA0B1005AA3BC /* SESO */,
+				2B8EF8FF197EA0B1005AA3BC /* SESOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B8EF8E3197EA0B1005AA3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8EF922197EA206005AA3BC /* buttonNormal.png in Resources */,
+				2B8EF8F3197EA0B1005AA3BC /* InfoPlist.strings in Resources */,
+				2B8EF925197EA36F005AA3BC /* logo.png in Resources */,
+				2B8EF8FB197EA0B1005AA3BC /* Images.xcassets in Resources */,
+				2B8EF923197EA206005AA3BC /* buttonPressed.png in Resources */,
+				2B8EF91E197EA13B005AA3BC /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8EF8FE197EA0B1005AA3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8EF90C197EA0B1005AA3BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8EF8E1197EA0B1005AA3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8EF92B197EA59B005AA3BC /* FacebookViewController.m in Sources */,
+				2B8EF92E197EA686005AA3BC /* webCreator.m in Sources */,
+				2B8EF8F9197EA0B1005AA3BC /* AppDelegate.m in Sources */,
+				2B8EF928197EA57E005AA3BC /* WebsiteViewController.m in Sources */,
+				2B8EF8F5197EA0B1005AA3BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8EF8FC197EA0B1005AA3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8EF90E197EA0B1005AA3BC /* JobAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B8EF906197EA0B1005AA3BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8EF8E4197EA0B1005AA3BC /* SESO */;
+			targetProxy = 2B8EF905197EA0B1005AA3BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B8EF8F1197EA0B1005AA3BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8EF8F2197EA0B1005AA3BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B8EF90A197EA0B1005AA3BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8EF90B197EA0B1005AA3BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B8EF90F197EA0B1005AA3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B8EF910197EA0B1005AA3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B8EF912197EA0B1005AA3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JobApp/SESO-Prefix.pch";
+				INFOPLIST_FILE = "JobApp/SESO-Info.plist";
+				PRODUCT_NAME = SESO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B8EF913197EA0B1005AA3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JobApp/SESO-Prefix.pch";
+				INFOPLIST_FILE = "JobApp/SESO-Info.plist";
+				PRODUCT_NAME = SESO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2B8EF915197EA0B1005AA3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JobApp.app/JobApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JobApp/JobApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JobAppTests/SESOTests-Info.plist";
+				PRODUCT_NAME = SESOTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2B8EF916197EA0B1005AA3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JobApp.app/JobApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JobApp/JobApp-Prefix.pch";
+				INFOPLIST_FILE = "JobAppTests/SESOTests-Info.plist";
+				PRODUCT_NAME = SESOTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B8EF8E0197EA0B1005AA3BC /* Build configuration list for PBXProject "SESO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8EF90F197EA0B1005AA3BC /* Debug */,
+				2B8EF910197EA0B1005AA3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8EF911197EA0B1005AA3BC /* Build configuration list for PBXNativeTarget "SESO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8EF912197EA0B1005AA3BC /* Debug */,
+				2B8EF913197EA0B1005AA3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8EF914197EA0B1005AA3BC /* Build configuration list for PBXNativeTarget "SESOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8EF915197EA0B1005AA3BC /* Debug */,
+				2B8EF916197EA0B1005AA3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B8EF8DD197EA0B1005AA3BC /* Project object */;
+}

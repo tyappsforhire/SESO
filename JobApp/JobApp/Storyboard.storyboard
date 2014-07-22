@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="rMu-ge-63D">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - SESO-->
+        <scene sceneID="1u2-b3-K4H">
+            <objects>
+                <viewController id="iQg-Py-FQG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tge-TK-NER"/>
+                        <viewControllerLayoutGuide type="bottom" id="KKy-ju-KYe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jGC-Ub-epa">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbp-fa-wiv">
+                                <rect key="frame" x="20" y="278" width="280" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="เว็บไซต์สำนักงานจัดหางาน" backgroundImage="buttonNormal.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9Ue-WM-k73" kind="push" id="GSJ-wf-nXg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kls-DX-EGh">
+                                <rect key="frame" x="20" y="357" width="280" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Facebook" backgroundImage="buttonNormal.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Dad-qa-LAY" kind="push" id="P8J-iE-UHl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="สำนักงานจัดหางาน" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBL-nw-v02">
+                                <rect key="frame" x="60" y="213" width="200" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="จังหวัดสุราษฎร์ธานี" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HxT-hY-DNN">
+                                <rect key="frame" x="60" y="238" width="200" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="UXo-Zf-WX5">
+                                <rect key="frame" x="40" y="65" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="HxT-hY-DNN" secondAttribute="trailing" constant="60" id="4cU-mC-LwA"/>
+                            <constraint firstAttribute="trailing" secondItem="Kls-DX-EGh" secondAttribute="trailing" constant="20" id="4st-Cz-wO6"/>
+                            <constraint firstItem="Kls-DX-EGh" firstAttribute="leading" secondItem="jGC-Ub-epa" secondAttribute="leading" constant="20" id="9gA-eJ-vw4"/>
+                            <constraint firstItem="HxT-hY-DNN" firstAttribute="top" secondItem="EBL-nw-v02" secondAttribute="bottom" constant="4" id="Fkg-sW-1z1"/>
+                            <constraint firstAttribute="trailing" secondItem="EBL-nw-v02" secondAttribute="trailing" constant="60" id="I1e-JO-wuy"/>
+                            <constraint firstItem="Kls-DX-EGh" firstAttribute="top" secondItem="Kbp-fa-wiv" secondAttribute="bottom" constant="8" id="al0-Jw-7Ar"/>
+                            <constraint firstItem="HxT-hY-DNN" firstAttribute="leading" secondItem="jGC-Ub-epa" secondAttribute="leading" constant="60" id="e8a-sC-wzO"/>
+                            <constraint firstAttribute="trailing" secondItem="Kbp-fa-wiv" secondAttribute="trailing" constant="20" id="gtQ-9s-YaZ"/>
+                            <constraint firstItem="EBL-nw-v02" firstAttribute="leading" secondItem="jGC-Ub-epa" secondAttribute="leading" constant="60" id="k96-oO-zuE"/>
+                            <constraint firstItem="Kbp-fa-wiv" firstAttribute="leading" secondItem="jGC-Ub-epa" secondAttribute="leading" constant="20" id="nDZ-mt-e5D"/>
+                            <constraint firstItem="UXo-Zf-WX5" firstAttribute="top" secondItem="Tge-TK-NER" secondAttribute="bottom" constant="65" id="nR7-LS-6wC"/>
+                            <constraint firstAttribute="trailing" secondItem="UXo-Zf-WX5" secondAttribute="trailing" constant="40" id="qSs-N0-gLk"/>
+                            <constraint firstItem="EBL-nw-v02" firstAttribute="top" secondItem="UXo-Zf-WX5" secondAttribute="bottom" constant="20" id="sBF-lR-gm5"/>
+                            <constraint firstItem="UXo-Zf-WX5" firstAttribute="leading" secondItem="jGC-Ub-epa" secondAttribute="leading" constant="40" id="wmN-CM-N3S"/>
+                            <constraint firstItem="KKy-ju-KYe" firstAttribute="top" secondItem="Kls-DX-EGh" secondAttribute="bottom" constant="76" id="yW4-7z-IV8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="SESO" id="O0K-gH-rLQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u4F-pv-peC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="296" y="123"/>
+        </scene>
+        <!--Facebook View Controller - Facebook-->
+        <scene sceneID="xPN-Ph-w2O">
+            <objects>
+                <viewController id="Dad-qa-LAY" customClass="FacebookViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YiV-0S-GEA"/>
+                        <viewControllerLayoutGuide type="bottom" id="KBi-Pc-W3m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9tD-UP-3pG">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WcD-49-dHd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WcD-49-dHd" secondAttribute="trailing" id="2x9-kp-tT9"/>
+                            <constraint firstItem="WcD-49-dHd" firstAttribute="top" secondItem="YiV-0S-GEA" secondAttribute="bottom" id="IqM-fO-ySF"/>
+                            <constraint firstItem="WcD-49-dHd" firstAttribute="leading" secondItem="9tD-UP-3pG" secondAttribute="leading" id="Zww-p4-vCn"/>
+                            <constraint firstItem="KBi-Pc-W3m" firstAttribute="top" secondItem="WcD-49-dHd" secondAttribute="bottom" id="h72-IZ-mq1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Facebook" id="qqT-lz-Al9"/>
+                    <connections>
+                        <outlet property="webView" destination="WcD-49-dHd" id="19J-KR-O0d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TAY-2m-PGh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1043" y="483"/>
+        </scene>
+        <!--Website View Controller - เว็บไซต์สำนักงานจัดหางาน-->
+        <scene sceneID="krq-Ne-b8H">
+            <objects>
+                <viewController id="9Ue-WM-k73" customClass="WebsiteViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="giQ-TR-ytQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ne3-K6-dAS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dII-Uu-MNp">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IGG-je-cej">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IGG-je-cej" firstAttribute="top" secondItem="giQ-TR-ytQ" secondAttribute="bottom" id="0CT-WU-UPN"/>
+                            <constraint firstItem="Ne3-K6-dAS" firstAttribute="top" secondItem="IGG-je-cej" secondAttribute="bottom" id="ULI-Wt-QzX"/>
+                            <constraint firstItem="IGG-je-cej" firstAttribute="leading" secondItem="dII-Uu-MNp" secondAttribute="leading" id="va2-9W-XkB"/>
+                            <constraint firstAttribute="trailing" secondItem="IGG-je-cej" secondAttribute="trailing" id="xAb-MA-eOm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="เว็บไซต์สำนักงานจัดหางาน" id="ik3-zU-6wA"/>
+                    <connections>
+                        <outlet property="webView" destination="IGG-je-cej" id="yIo-8T-fpG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bUg-SU-Hsc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1043" y="-205"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hCf-rF-cBm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rMu-ge-63D" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="2dl-er-KtQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="iQg-Py-FQG" kind="relationship" relationship="rootViewController" id="zLX-wO-K7N"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1eL-ei-lB6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-230" y="123"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="buttonNormal.png" width="325" height="121"/>
+        <image name="logo.png" width="300" height="300"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>248F7F30-0710-4857-A65A-2AA35E009885</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SESO</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1C246F5B-09B6-4CE9-90AD-7051EB588F1D</key>
+		<string>https://github.com/tyappsforhire/SESO.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JobApp/SESO.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1C246F5B-09B6-4CE9-90AD-7051EB588F1D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tyappsforhire/SESO.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1C246F5B-09B6-4CE9-90AD-7051EB588F1D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1C246F5B-09B6-4CE9-90AD-7051EB588F1D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SESO</string>
+		</dict>
+	</array>
+</dict>
+</plist>
