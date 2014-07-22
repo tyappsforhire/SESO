@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B6C8690197EC4EF0022B1E1 /* ActivityIndicatorCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C868F197EC4EF0022B1E1 /* ActivityIndicatorCreator.m */; };
 		2B8EF8E9197EA0B1005AA3BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8EF8E8197EA0B1005AA3BC /* Foundation.framework */; };
 		2B8EF8EB197EA0B1005AA3BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8EF8EA197EA0B1005AA3BC /* CoreGraphics.framework */; };
 		2B8EF8ED197EA0B1005AA3BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8EF8EC197EA0B1005AA3BC /* UIKit.framework */; };
@@ -25,7 +26,6 @@
 		2B8EF925197EA36F005AA3BC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8EF924197EA36F005AA3BC /* logo.png */; };
 		2B8EF928197EA57E005AA3BC /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EF927197EA57E005AA3BC /* WebsiteViewController.m */; };
 		2B8EF92B197EA59B005AA3BC /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EF92A197EA59B005AA3BC /* FacebookViewController.m */; };
-		2B8EF92E197EA686005AA3BC /* webCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EF92D197EA686005AA3BC /* webCreator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B6C868E197EC4EF0022B1E1 /* ActivityIndicatorCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorCreator.h; sourceTree = "<group>"; };
+		2B6C868F197EC4EF0022B1E1 /* ActivityIndicatorCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorCreator.m; sourceTree = "<group>"; };
 		2B8EF8E5197EA0B1005AA3BC /* SESO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SESO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8EF8E8197EA0B1005AA3BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B8EF8EA197EA0B1005AA3BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +65,6 @@
 		2B8EF927197EA57E005AA3BC /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteViewController.m; sourceTree = "<group>"; };
 		2B8EF929197EA59B005AA3BC /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
 		2B8EF92A197EA59B005AA3BC /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
-		2B8EF92C197EA686005AA3BC /* webCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webCreator.h; sourceTree = "<group>"; };
-		2B8EF92D197EA686005AA3BC /* webCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webCreator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +176,8 @@
 		2B8EF918197EA0E3005AA3BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2B8EF92C197EA686005AA3BC /* webCreator.h */,
-				2B8EF92D197EA686005AA3BC /* webCreator.m */,
+				2B6C868E197EC4EF0022B1E1 /* ActivityIndicatorCreator.h */,
+				2B6C868F197EC4EF0022B1E1 /* ActivityIndicatorCreator.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -303,10 +303,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B8EF92B197EA59B005AA3BC /* FacebookViewController.m in Sources */,
-				2B8EF92E197EA686005AA3BC /* webCreator.m in Sources */,
 				2B8EF8F9197EA0B1005AA3BC /* AppDelegate.m in Sources */,
 				2B8EF928197EA57E005AA3BC /* WebsiteViewController.m in Sources */,
 				2B8EF8F5197EA0B1005AA3BC /* main.m in Sources */,
+				2B6C8690197EC4EF0022B1E1 /* ActivityIndicatorCreator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,6 @@
 //
-//  webCreator.h
-//  JobApp
+//  ActivityIndicatorCreator.h
+//  SESO
 //
 //  Created by Tanya on 7/22/14.
 //  Copyright (c) 2014 ustwo.com.ty. All rights reserved.
@@ -8,9 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface webCreator : NSObject
+@interface ActivityIndicatorCreator : NSObject
 
-
-- (UIWebView *) loadsWebFromString:(NSString *)urlString;
+- (UIActivityIndicatorView *) createAcivityIndicator;
 
 @end

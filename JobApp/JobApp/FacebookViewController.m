@@ -7,9 +7,12 @@
 //
 
 #import "FacebookViewController.h"
-#import "webCreator.h"
+#import "ActivityIndicatorCreator.h"
 
 @interface FacebookViewController ()
+{
+    UIActivityIndicatorView *act;
+}
 
 @end
 
@@ -29,9 +32,23 @@
 {
     [super viewDidLoad];
     
+    act = [[UIActivityIndicatorView alloc] init];
+    ActivityIndicatorCreator *activityCreator = [[ActivityIndicatorCreator alloc] init];
+    act = [activityCreator createAcivityIndicator];
+    [self.view addSubview:act];
+    [act startAnimating];
+    
+    [self performSelector:@selector(loadWebView) withObject:nil afterDelay:0];
+}
+
+- (void) loadWebView
+{
     NSString *url = @"https://www.facebook.com/pageseso/";
-    webCreator *webCreate = [[webCreator alloc] init];
-    webView = [webCreate loadsWebFromString:url];
+    NSURL *nsurl = [NSURL URLWithString:url];
+    NSURLRequest *nsrequest=[NSURLRequest requestWithURL:nsurl];
+    [webView loadRequest:nsrequest];
+    
+    [act stopAnimating];
 }
 
 - (void)didReceiveMemoryWarning

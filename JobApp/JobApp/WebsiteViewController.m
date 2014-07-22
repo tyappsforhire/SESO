@@ -7,9 +7,12 @@
 //
 
 #import "WebsiteViewController.h"
-#import "webCreator.h"
+#import "ActivityIndicatorCreator.h"
 
 @interface WebsiteViewController ()
+{
+    UIActivityIndicatorView *act;
+}
 
 @end
 
@@ -30,12 +33,23 @@
 {
     [super viewDidLoad];
     
-    NSString *url = @"http://apps.seso.go.th/";
-    webCreator *webCreate = [[webCreator alloc] init];
-    webView = [webCreate loadsWebFromString:url];
+    act = [[UIActivityIndicatorView alloc] init];
+    ActivityIndicatorCreator *activityCreator = [[ActivityIndicatorCreator alloc] init];
+    act = [activityCreator createAcivityIndicator];
+    [self.view addSubview:act];
+    [act startAnimating];
     
+    [self performSelector:@selector(loadWebView) withObject:nil afterDelay:0];
+}
+
+- (void) loadWebView
+{
+    NSString *url = @"http://apps.seso.go.th/";    
+    NSURL *nsurl = [NSURL URLWithString:url];
+    NSURLRequest *nsrequest=[NSURLRequest requestWithURL:nsurl];
+    [webView loadRequest:nsrequest];
     
-    //changed a bit here
+    [act stopAnimating];
 }
 
 - (void)didReceiveMemoryWarning
